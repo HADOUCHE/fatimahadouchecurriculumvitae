@@ -1,0 +1,109 @@
+
+/* styles généraux du CV */
+
+@font-face {
+    font-family: "raleway";
+    src: url(../fonts/Raleway-Regular.woff);
+    src: url(../fonts/Raleway-Regular.ttf) format(truetype);
+    src: url(../fonts/Raleway-Regular.otf) format(opentype);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "raleway";
+    src: url(../fonts/Raleway-Bold.woff);
+    src: url(../fonts/Raleway-Bold.ttf) format(truetype);
+    src: url(../fonts/Raleway-Bold.otf) format(opentype);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "raleway";
+    src: url(../fonts/Raleway-Italic.woff);
+    src: url(../fonts/Raleway-Italic.ttf) format(truetype);
+    src: url(../fonts/Raleway-Italic.otf) format(opentype);
+    font-weight: 400;
+    font-style: italic;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    background-color: #e3e3e3;
+    font-family: "raleway", sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 1rem;
+   
+}
+#contenu{
+    width:1160px;
+    margin:0 auto;
+    background: #ffffff;
+    overflow: auto;
+   
+}
+
+.name{
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    font-family: "lato", sans-serif;
+    padding: 0.1em;
+   
+}
+
+
+.contact{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+h1{
+   margin: 0;
+   padding: 0.6rem;
+
+}
+
+h1,h2,h3{
+    font-family: "lato", sans-serif;
+}
+
+h2{
+    font-weight: 400;
+    color: #17abb3;
+}
+
+h3{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+h3+p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+address a,footer a{
+    text-decoration: none;
+    color: inherit;
+}
+
+strong{
+    font-weight: normal;
+}
+
+em{
+    font-style: normal;
+}
+
+

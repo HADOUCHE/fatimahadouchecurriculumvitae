@@ -1,0 +1,32 @@
+
+/* pied de page*/
+
+footer{
+    background-color: #17abb3;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.reseaux{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0 0 0.75rem;
+    padding: 0;
+}
+
+.reseaux img{
+    width: 30px;
+    height: 30px;
+}
+.reseaux img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+footer small{
+    font-size: 1rem;
+}
